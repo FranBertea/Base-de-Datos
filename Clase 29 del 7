@@ -1,0 +1,13 @@
+Create database 2907BD;
+Use Empleo;
+Create table Empleados
+(IdEmpleado VarChar (12) not null,
+NomEmp Varchar (12) not null,
+FechaNac Date not null,
+SalEmp Float not null
+);
+Insert into 2907BD ("1", Eduardo, 1987/09/12, 10000);
+Insert into 2907BD ("2", Graciela, 1976/11/05, 20000);
+Insert into 2907BD ("3", Norberto, 1966/06/06, 50000);
+Insert into 2907BD ("4", Ricardo, 1998/10/04, 2000); 
+Insert into 2907BD ("5", Laura, 2001/05/03, 5000);
